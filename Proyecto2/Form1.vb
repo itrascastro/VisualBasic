@@ -15,9 +15,4 @@
         'Salida
         Label1.Text = suma.ToString
     End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Label1.Text = "Etiqueta"
-        TextBox1.Text = "hola"
-    End Sub
 End Class
