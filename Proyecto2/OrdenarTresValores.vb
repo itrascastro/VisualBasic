@@ -6,8 +6,8 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         n1 = CInt(TextBox1.Text)
-        n2 = CInt(TextBox1.Text)
-        n3 = CInt(TextBox1.Text)
+        n2 = CInt(TextBox2.Text)
+        n3 = CInt(TextBox3.Text)
 
         If (n1 > n2 And n1 > n3) Then
             mayor = n1
