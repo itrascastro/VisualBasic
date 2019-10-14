@@ -107,6 +107,12 @@
     <Compile Include="OrdenarTresValores.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TablaMultiplicarFor.Designer.vb">
+      <DependentUpon>TablaMultiplicarFor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TablaMultiplicarFor.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OrdenarTresValores.resx">
       <DependentUpon>OrdenarTresValores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TablaMultiplicarFor.resx">
+      <DependentUpon>TablaMultiplicarFor.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
