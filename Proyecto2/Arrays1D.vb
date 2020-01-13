@@ -23,9 +23,35 @@
             num(i) = Random.Next(-50, 50)
         Next
 
-        For i = 0 To N
+        For i = 0 To N - 1
             sum += num(i)
         Next
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim num(19) As Integer
+        Dim Random As New Random()
+        Dim i As Integer
+        Dim encontrado As Boolean = False
+        Dim out As String = ""
+
+        For i = 0 To 19
+            num(i) = Random.Next(-50, 50)
+        Next
+
+        For i = 0 To 19
+            If num(i) > 30 Then
+                encontrado = True
+                out += num(i) + " " + i
+            End If
+        Next
+
+        If Not encontrado Then
+            TextBox1.Text = "No hay números mayores que 30"
+        Else
+            TextBox1.Text = out
+        End If
 
     End Sub
 End Class
