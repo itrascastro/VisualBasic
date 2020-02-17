@@ -92,6 +92,7 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="model\Punto.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -113,6 +114,7 @@
     <Compile Include="OrdenarTresValores.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PruebaPunto.vb" />
     <Compile Include="TablaMultiplicarFor.Designer.vb">
       <DependentUpon>TablaMultiplicarFor.vb</DependentUpon>
     </Compile>
